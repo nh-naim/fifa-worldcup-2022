@@ -39,13 +39,13 @@
 }
 
 .btn {
-    color: crimson;
-    padding: 10px;
-    width: 1870px;
-    height: 156px;
-    top: 585px;
-    left: 285px;
+    text-decoration: none;
+    background-image: linear-gradient(red, blue);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
     border-radius: 5px;
+
 
 }
 
@@ -54,12 +54,15 @@
 } */
 
 .group-box {
-    background-color: white;
+    background-color: black;
+    width: 312px;
+    height: 312px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(1, 1fr);
     width: auto;
     margin-top: 50px;
+    border: 1px solid gray;
 
 }
 
