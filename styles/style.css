@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-section {
+    margin: 60px 60px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+
+}
+
+.header-items {
+    background-color: black;
+    display: flex;
+    border-radius: 10px;
+}
+
+.header-deatils {
+    color: white;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 700;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.title {
+    font-size: bold;
+
+}
+
+.btn {
+    color: crimson;
+    padding: 10px;
+    width: 1870px;
+    height: 156px;
+    top: 585px;
+    left: 285px;
+    border-radius: 5px;
+
+}
+
+/* .section-2 {
+    display: flex;
+} */
+
+.group-box {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+    margin-top: 50px;
+
+}
+
+.itm-btn {
+
+    text-align: center;
+
+}
+
+.txt {
+    text-decoration: none;
+    font-size: 700;
+
+}
+
+.features {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.transfer-1 {
+    width: 312;
+    height: 362px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    font: 700px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.footers {
+    width: 100%;
+    height: 240px;
+    background-color: black;
+}
+
+.Goaal {
+    text-align: center;
+    padding: 50px;
+}
+
+hr {
+    color: aliceblue;
+    width: 95%;
+}
+
+.cont-us {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.text-colors {
+    color: #fff;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
