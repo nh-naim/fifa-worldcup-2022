@@ -41,6 +41,7 @@
 .btn {
     text-decoration: none;
     background-image: linear-gradient(red, blue);
+    margin-top: 30px;
     padding: 10px 40px;
     color: white;
     font-weight: 400;
@@ -49,19 +50,30 @@
 
 }
 
+.itm-btn {
+    text-decoration: none;
+    background-color: khaki;
+    padding: 10px 40px;
+    color: whitesmoke;
+    font-weight: 400;
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+
 /* .section-2 {
     display: flex;
 } */
 
 .group-box {
     background-color: black;
-    width: 312px;
-    height: 312px;
+    height: 300px;
+    width: 150px;
+    margin-top: 60px;
     display: grid;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     grid-template-columns: repeat(1, 1fr);
-    width: auto;
-    margin-top: 50px;
     border: 1px solid gray;
 
 }
@@ -74,8 +86,15 @@
 
 .txt {
     text-decoration: none;
+    color: red;
     font-size: 700;
+    font-weight: 400;
 
+}
+
+.section-2 {
+    display: flex;
+    gap: 15px;
 }
 
 .features {
@@ -115,8 +134,9 @@
 }
 
 hr {
-    color: aliceblue;
-    width: 95%;
+    color: gray;
+    width: 100%;
+    padding-left: 20px;
 }
 
 .cont-us {
