@@ -52,7 +52,7 @@
 
 .itm-btn {
     text-decoration: none;
-    background-color: khaki;
+    background-color: lightseagreen;
     padding: 10px 40px;
     color: whitesmoke;
     font-weight: 400;
@@ -65,7 +65,7 @@
 } */
 
 .group-box {
-    background-color: black;
+    background-color: white;
     height: 300px;
     width: 150px;
     margin-top: 60px;
@@ -148,4 +148,57 @@ hr {
 .text-colors {
     color: #fff;
     font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+/* ----------------------------------Upcoming match styles------------------------- */
+.match {
+    background-color: lightpink;
+    border: 1px solid black;
+    margin-top: 60px;
+    padding: 30px;
+    width: 312px;
+    height: 242px;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+
+}
+
+.match-opponent {
+    display: flex;
+    flex-direction: row;
+}
+
+.match-timing {}
+
+.game-plan {
+    color: black;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.txt-clr {
+    color: gray;
+
+}
+
+.game-schedule {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.match-timing {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:688px) {
+    .features {
+        background-color: tomato;
+    }
 }
